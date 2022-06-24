@@ -20,9 +20,6 @@ namespace MyFirstApp
             ulong loveToKittens = 18446744073709551615;
             short humanPopulationMoon = 0;
             uint humanMoscow = 12635466;
-            
-
-
         }
     }
 }
