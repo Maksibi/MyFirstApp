@@ -18,7 +18,7 @@ namespace MyFirstApp
 
             int minutesOfWait = minutesOfVisit * countOfRow;
             int hoursOfWait = minutesOfWait / minutesInHour;
-            int minutesOutHours = minutesOfWait - hoursOfWait * 60;
+            int minutesOutHours = minutesOfWait - hoursOfWait * minutesInHour;
 
             Console.WriteLine("Вы должны протерпеть в очереди {0}ч {1}м", hoursOfWait, minutesOutHours);
             Console.ReadKey();
